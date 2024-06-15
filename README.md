@@ -1,7 +1,7 @@
 Linea144
 ==============================
 
-{{cookiecutter.description}}
+# Clasificación de la concurrencia de las violencias de género según datos de la línea 144
 
 Project Organization
 ------------
