@@ -1,4 +1,4 @@
-{{cookiecutter.project_name}}
+Linea144
 ==============================
 
 {{cookiecutter.description}}
