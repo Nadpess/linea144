@@ -3,9 +3,9 @@
 
 **La siguiente tabla describe las variables presentes en el dataframe, la cantidad de datos (no nulos) que se encuentran en la misma**
 
-#   Column                                             Non-Null Count  Dtype  
----  ------                                             --------------  -----  
- 0   fecha                                              89541 non-null  object 
+| # | Column |                                            Non-Null Count  Dtype  
+|--- | ------  |                                           --------------  -----  
+    fecha                                              89541 non-null  object 
  1   prov_residencia_persona_en_situacion_violencia     88377 non-null  object 
  2   genero_persona_en_situacion_de_violencia           87637 non-null  object 
  3   edad_persona_en_situacion_de_violencia             72263 non-null  float64
