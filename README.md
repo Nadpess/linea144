@@ -16,7 +16,7 @@ Realizar la clasificación geográfica de las denuncias para indagar si hay una 
 Dado el retroceso nacional en materia de políticas públicas de atención a las violencias, me parece relevante conocer el
 comportamiento de la co ocurrencia de los diferentes tipos de violencias hacia las mujeres para identificar posibles estrategias locales
 para la atención a las mismas. En caso de no poder realizar la clasificación por tipo de violencia, también es interesante abordar la
-distribución geográfica para poder observar de qué manera se podría ir identificando las zonas en las que se denuncia/denunciarán
+distribución geográfica para poder observar de qué manera se podría ir identificando regiones en las que se denuncia/denunciarán
 situaciones de violencia de género.
 
 ### Fuentes
