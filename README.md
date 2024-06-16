@@ -23,7 +23,7 @@ situaciones de violencia de género.
 Los datos con los que se trabajará son los obtenidos en la página datos.gob.ar En la “Base de datos de la línea 144” que posee registro de
 todos los llamados realizados en el periodo 2020-2023
 ---------------------------
-*El proyecto hasta el momento cuenta con las bases raw e interim, y la descripcición de los objetivos y del dataset.
+###*El proyecto hasta el momento cuenta con las bases raw e interim, y la descripcición de los objetivos y del dataset.
 El modelo está en construcción.*
 -----------------------
 Project Organization
