@@ -1,6 +1,6 @@
 ## Diccionario de datos
-*Ese diccionario de datos se encuentra también disponible en la página web desde donde se extrajeron los datos. En ella, cada uno de los dataframes usados, comparten las 
-mismas varibles que se detallan a continuación:*
+**Este diccionario de datos se encuentra también disponible en la página web desde donde se extrajeron los datos. En ella, cada uno de los dataframes usados, comparten las 
+mismas varibles que se detallan a continuación:**
 
 | Nombre de la columna |	Tipo de dato	| Descripción | 
 | ---- | ---- |------|
