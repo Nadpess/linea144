@@ -27,46 +27,46 @@ Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── Makefile           <- ....
+    ├── README.md          <- README. 
     ├── data
-    │   ├── external       <- Data from third party sources. Datos de fuentes externas con link a datos.
+    │   ├── external       <- Data from third party sources. Datos de fuentes externas.
     │   ├── interim        <- Intermediate data that has been transformed. Data intermedia transformada.
-    │   ├── processed      <- The final, canonical data sets for modeling. Set de datos final para la modelización.
+    │   ├── processed      <- The final, canonical data sets for modeling. Set de datos final para la modelización. (EN DESARROLLO)
     │   └── raw            <- The original, immutable data dump. Data original en archivo csv.
     │
-    ├── docs               <- Documents explaining objetives.
+    ├── docs               <- Documents explaining objetives. Documentos descriptivos del proyecto.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Trained and serialized models, model predictions, or model summaries. Modelos realizados
     │
     ├── notebooks          <- Jupyter notebooks.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials. Manuales de códigos.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc. Reporte final.
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc. Reporte final. (EN DESARROLLO)
     │   └── figures        <- Generated graphics and figures to be used in reporting. Gráficos de reporte.
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment. Requerimientos para la reproducción del modelo.
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment. Requerimientos para la reproducción del modelo. (EN DESARROLLO)
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    ├── setup.py           <- ...
+    ├── src                <- ....
+    │   ├── __init__.py    <- ...
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
+    │   ├── data           <- ...
+    │   │   └── make_dataset.py (EN DESARROLLO)
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
+    │   ├── features       <- ...
+    │   │   └── ...
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
+    │   │   │                 predictions (EN DESARROLLO)
     │   │   ├── predict_model.py
     │   │   └── train_model.py
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations(EN DESARROLLO)
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── tox.ini            <- ...
 
 
 --------
