@@ -60,7 +60,7 @@ Este diccionario de datos se encuentra también disponible en la página web des
 
 
 ## Informe sobre el origen del dataset (fuente, la fecha de adquisición y recopilación o preprocesamiento realizado:
-El origen del data set es la página de datos públicos de Argentina https://datos.gob.ar/dataset/generos-base-datos-linea-144 en donde podemos observar la siguiente información respecto de los datos.
+El origen del data set es la página de datos públicos de Argentina https://datos.gob.ar/dataset/generos-base-datos-linea-144 .
 
 **De dicha web se extrajeron las cuatro bases de datos disponibles, a saber:**
   - Linea 144 - 2020,
