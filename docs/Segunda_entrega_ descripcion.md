@@ -9,6 +9,7 @@ El data set está compuesto por 89541 observaciones o instancias y un total de 1
 La siguiente tabla describe las variables presentes en el dataframe, la cantidad de datos (no nulos) que se encuentran en la misma
 
 | n°  de variable | variable |Conteo no nulos |Tipo de dato|
+|----|----|----|----|
 |0 |fecha |89541 non-null|object|
 |1 |prov_residencia_persona_en_situacion_violencia|88377 non-null|object|
 |2|genero_persona_en_situacion_de_violencia|87637 non-null|object|
@@ -30,80 +31,46 @@ La siguiente tabla describe las variables presentes en el dataframe, la cantidad
 |18|genero_de_la_persona_agresora|80328 non-null|object|
 
 dtypes: float64(1), object(18)
-Diccionario de datos
+
+## Diccionario de datos
 Este diccionario de datos se encuentra también disponible en la página web desde donde se extrajeron los datos. En ella, cada uno de los dataframes usados, comparten las mismas varibles que se detallan a continuación:
-Nombre de la columna
-Tipo de dato
-Descripción
-fecha
-Fecha ISO-8601 (date)
-Fecha del ingreso de la consulta
-prov_residencia_persona_en_situacion_violencia
-Texto (string)
-Provincia en donde la persona en situación de violencia declara estar residiendo al momento de la consulta
-genero_persona_en_situacion_de_violencia
-Texto (string)
-Identidad de género autopercibida de la persona en situación de violencia
-edad_persona_en_situacion_de_violencia
-Texto (string)
-Edad declarada de la persona en situación de violencia al momento en que se ingresó la consulta
-pais_nacimiento_persona_en_situacion_de_violencia
-Texto (string)
-País de nacimiento de la persona en situación de violencia
-tipo_de_violencia_fisica
-Texto (string)
-Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta
-tipo_de_violencia_psicologica
-Texto (string)
-Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta
-tipo_de_violencia_sexual
-Texto (string)
-Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta
-tipo_de_violencia_economica_y_patrimonial
-Texto (string)
-Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta
-tipo_de_violencia_simbolica
-Texto (string)
-Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta
-tipo_de_violencia_domestica
-Texto (string)
-Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron
-modalidad_de_violencia_institucional
-Texto (string)
-Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron
-modalidad_de_violencia_laboral
-Texto (string)
-Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron
-modalidad_violencia_contra_libertad_reproductiva
-Texto (string)
-Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron
-modalidad_de_violencia_obstetrica
-Texto (string)
-Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron
-modalidad_de_violencia_mediatica
-Texto (string)
-Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron
-modalidad_de_violencia_otras
-Texto (string)
-Categoría “Otras modalidades” para dejar registro de la presencia de otras modalidades distintas a las mencionadas (por ejemplo, violencia política, acoso callejero)
-vinculo_con_la_persona_agresora
-Texto (string)
-Vínculo que tiene o tenía la persona en situación de violencia con quien ejerce la agresión en el momento en que sucedieron las situaciones de violencia declaradas
-genero_de_la_persona_agresora
-Texto (string)
-Identidad de género de la persona agresora
+
+|Nombre de la columna |Tipo de dato|Descripción|
+|----|----|----|
+|fecha|Fecha ISO-8601 (date)|Fecha del ingreso de la consulta|
+|prov_residencia_persona_en_situacion_violencia|Texto (string)|Provincia en donde la persona en situación de violencia declara estar residiendo al momento de la consulta|
+|genero_persona_en_situacion_de_violencia|Texto (string)|Identidad de género autopercibida de la persona en situación de violencia|
+|edad_persona_en_situacion_de_violencia|Texto (string)|Edad declarada de la persona en situación de violencia al momento en que se ingresó la consulta|
+|pais_nacimiento_persona_en_situacion_de_violencia|Texto (string)|País de nacimiento de la persona en situación de violencia|
+|tipo_de_violencia_fisica|Texto (string)|Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta
+|tipo_de_violencia_psicologica|Texto (string)|Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta|
+|tipo_de_violencia_sexual|Texto (string)|Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta|
+|tipo_de_violencia_economica_y_patrimonial|Texto (string)|Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta|
+|tipo_de_violencia_simbolica|Texto (string)|Tipo de violencia, contemplado por la ley 26.485, que motiva la consulta|
+|tipo_de_violencia_domestica|Texto (string)|Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron|
+|modalidad_de_violencia_institucional|Texto (string)|Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron|
+|modalidad_de_violencia_laboral|Texto (string)|Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron|
+|modalidad_violencia_contra_libertad_reproductiva|Texto (string)|Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron|
+|modalidad_de_violencia_obstetrica|Texto (string)|Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron
+|modalidad_de_violencia_mediatica|Texto (string)||Modalidad de violencia, contempladas por la ley 26.485, que motivan la consulta bajo la cual se desarrollaron|
+|modalidad_de_violencia_otras|Texto (string)|Categoría “Otras modalidades” para dejar registro de la presencia de otras modalidades distintas a las mencionadas (por ejemplo, violencia política, acoso callejero)|
+|vinculo_con_la_persona_agresora|Texto (string)|Vínculo que tiene o tenía la persona en situación de violencia con quien ejerce la agresión en el momento en que sucedieron las situaciones de violencia declaradas|
+|genero_de_la_persona_agresora|Texto (string)|Identidad de género de la persona agresora|
 
 
 
-Informe sobre el origen del dataset (fuente, la fecha de adquisición y recopilación o preprocesamiento realizado:
+## Informe sobre el origen del dataset (fuente, la fecha de adquisición y recopilación o preprocesamiento realizado:
 El origen del data set es la página de datos públicos de Argentina https://datos.gob.ar/dataset/generos-base-datos-linea-144 en donde podemos observar la siguiente información respecto de los datos.
 
-De dicha web se extrajeron las cuatro bases de datos disponibles, a saber:
-Linea 144 -2020
-Linea 144 -2021
-Linea 144 - enero-diciembre - 2022
-Linea 144 - enero-junio - 2023
+**De dicha web se extrajeron las cuatro bases de datos disponibles, a saber:**
+  - Linea 144 - 2020,
+  - Linea 144 -2021,
+  - Linea 144 - enero-diciembre - 2022,
+  - Linea 144 - enero-junio - 2023.
+  
 Los mismos fueron extraídos en el mes de mayo del año 2024, e incorporados al repositorio de github el día 15 de junio del mismo año.
+
 A partir del set de datos, se construyó un data frame final con una concatenación donde se incorporaron los cuatro años disponibles respecto al tema. El data frame se encuentra disponible en la carpeta interim como se mencionó anteriormente.
+
 En las carpeta notebook de github se hallan los documentos de jupyter con los que se ha realizado el preprocesamiento. Se decidió realizar la limpieza en dos etapas para aportar claridad al trabajo, por lo que se realizaron tres documentos: Preprocesamiento 1.ipynib, Limpieza 1.ipynb, Descripción_base 1.ipynb
-Enlace a github: https://github.com/Nadpess/linea144.git
+
