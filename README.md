@@ -22,10 +22,7 @@ situaciones de violencia de género.
 ### Fuentes
 Los datos con los que se trabajará son los obtenidos en la página datos.gob.ar En la “Base de datos de la línea 144” que posee registro de
    todos los llamados realizados en el periodo 2020-2023
-    
----------------------------
-#### 
-*El proyecto hasta el momento cuenta con las bases raw e interim, y la descripcición de los objetivos y del dataset. El modelo está en construcción.*
+
 
 -----------------------
 Project Organization
@@ -37,7 +34,7 @@ Project Organization
     ├── data
     │   ├── external       <- Data from third party sources. Datos de fuentes externas.
     │   ├── interim        <- Intermediate data that has been transformed. Data intermedia transformada.
-    │   ├── processed      <- The final, canonical data sets for modeling. Set de datos final para la modelización. (EN DESARROLLO)
+    │   ├── processed      <- The final, canonical data sets for modeling. Set de datos final para la modelización. 
     │   └── raw            <- The original, immutable data dump. Data original en archivo csv.
     │
     ├── docs               <- Documents explaining objetives. Documentos descriptivos del proyecto.
@@ -67,7 +64,7 @@ Project Organization
     │   │   │                 classification 
     │   │  
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations(EN DESARROLLO)
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
     └── tox.ini            <- ...
