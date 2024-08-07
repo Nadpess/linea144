@@ -58,15 +58,14 @@ Project Organization
     │   ├── __init__.py    <- ...
     │   │
     │   ├── data           <- ...
-    │   │   └── make_dataset.py (EN DESARROLLO)
+    │   │   └── make_dataset.py 
     │   │
     │   ├── features       <- ...
     │   │   └── ...
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions (EN DESARROLLO)
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
+    │   │   │                 classification 
+    │   │  
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations(EN DESARROLLO)
     │       └── visualize.py
