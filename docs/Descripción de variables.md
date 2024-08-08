@@ -940,7 +940,7 @@ tv_agrupada
 
 En el caso de la descripción de las variables que califican los tipos de violencia consultadas a la línea 144 podemos observar las siguientes conclusiones:
  - El tipo de violencia con mayor recurrencia fue la violencia psicológica (84993) 
- - El tipo de violenciacon menor recurrencia fue la violencia sexual (84993)
+ - El tipo de violenciacon menor recurrencia fue la violencia sexual (12238)
  
 
 ## Descripción modalidad de violencia
